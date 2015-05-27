@@ -1,0 +1,29 @@
+{
+  "name": "motm-babel",
+  "version": "0.0.0",
+  "description": "module of month js.la babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-start": "babel compilation/index.js -o compilation/compiled.js",
+    "module-start": "babel-node modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/motm-babel.git"
+  },
+  "keywords": [
+    "motm",
+    "babel",
+    "demo"
+  ],
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcblw/motm-babel/issues"
+  },
+  "homepage": "https://github.com/jcblw/motm-babel#readme",
+  "devDependencies": {
+    "babel": "^5.4.7"
+  }
+}
