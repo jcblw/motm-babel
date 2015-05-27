@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-start": "babel compilation/index.js -o compilation/compiled.js",
-    "module-start": "babel-node modules"
+    "module-start": "babel-node modules",
+    "require-start": "node require-transform/"
   },
   "repository": {
     "type": "git",
