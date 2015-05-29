@@ -11,7 +11,7 @@ class Foo {
   }
 }
 
-const foo = new Foo({x:1,y:2,z:4,bar:'baz'});
+const foo = new Foo({x:1,y:2,z:3,bar:'baz'});
 const {bar} = foo._options;
 
-console.log(foo.matrix, bar);
+export {foo, bar};

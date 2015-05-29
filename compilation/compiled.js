@@ -28,7 +28,7 @@ var Foo = (function () {
   return Foo;
 })();
 
-var foo = new Foo({ x: 1, y: 2, z: 3, bar: 'baz' });
+var foo = new Foo({ x: 1, y: 2, z: 4, bar: 'baz' });
 var bar = foo._options.bar;
 
 console.log(foo.matrix, bar);
