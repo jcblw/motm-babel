@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/jcblw/motm-babel#readme",
   "devDependencies": {
-    "babel": "^5.4.7"
+    "babel": "^6.23.0"
   }
 }
